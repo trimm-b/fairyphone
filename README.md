@@ -2,8 +2,10 @@
 modified scripts based on https://www.instructables.com/Fairytale-Phone/
 
 The idea of this steps are to start the phone1 executable at raspi startup time using a systemd service
-instead of using the legacy /etc/rc.local file
-## If you already have mp3's and phone1 on youre raspi
+instead of using the legacy /etc/rc.local file.
+
+
+## If you already have mp3's and the phone1 executable on your raspi, just upgrade from /etc/rc.local to a systemd service
 1. become superuser 
 ```
 sudo bash
