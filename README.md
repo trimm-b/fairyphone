@@ -50,4 +50,4 @@ this should display something like
 root       466 99.9  0.8  23472  8028 ?        Rl   21:33  24:28 /usr/bin/python3 /opt/phone/software/phone1
 root       641  0.0  0.0   7348   500 pts/0    S+   21:58   0:00 grep phone1
 ```
-
+in /tmp/phone1.log you can see the output of phone1
