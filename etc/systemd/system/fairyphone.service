@@ -1,0 +1,17 @@
+# systemctl enable charge_guy.service
+[Unit]
+Description=Charge Guy Http
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart= /opt/phone/software/phone.sh
+WorkingDirectory=/opt/phone/software
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+RestartSec=1s
+[Install]
+WantedBy=multi-user.target
+
