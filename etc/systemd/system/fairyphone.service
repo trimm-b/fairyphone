@@ -1,6 +1,6 @@
-# systemctl enable charge_guy.service
+# systemctl enable fairyphone.service
 [Unit]
-Description=Charge Guy Http
+Description=Start your fairy phone
 After=network-online.target
 Wants=network-online.target
 
