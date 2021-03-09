@@ -1,7 +1,7 @@
 # fairyphone
 modified scripts based on https://www.instructables.com/Fairytale-Phone/
 
-The idea of this steps are to start the phone1 executable using a systemd service
+The idea of this steps are to start the phone1 executable at raspi startup time using a systemd service
 instead of using the legacy /etc/rc.local file
 
 Steps to install:
